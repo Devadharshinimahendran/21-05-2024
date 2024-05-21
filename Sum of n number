@@ -1,0 +1,7 @@
+n = int(input("Enter the number of elements: "))
+total = 0
+
+for i in range(n):
+    total += float(input("Enter number " + str(i+1) + ":"))
+
+print("Sum of the", n, "numbers is:", total)
