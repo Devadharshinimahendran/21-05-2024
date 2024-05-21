@@ -1,0 +1,15 @@
+Mari=input("Enter marital status(M/U):\n ")
+age=int(input("enter age: \n"))
+Gender=input("Enter gender(M/F):\n ")
+if(Mari=='M'):
+    Mari='m'
+elif(Mari=='U'):
+    Mari='u'
+if(Gender=='M'):
+    Gender='m'
+elif(Gender=='F'):
+    Gender='f'
+if(Mari='m' or (Gender='m' and age>=30) or (Gender='f' and age>=25)):
+    print("Elligible")
+else:
+    print("Not eligible")
