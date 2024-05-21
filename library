@@ -1,0 +1,9 @@
+day=int(input())
+if(day>=5 and day<=9):
+    print("fine is rs.1.00")
+elif(day>=10 and day<=29):
+    print("fine is rs.5.00")
+elif(day>=30):
+    print("Your membership has been cancelled")
+else:
+    print("No fine")
