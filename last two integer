@@ -1,0 +1,6 @@
+a=int(input())
+if(a>99):
+    i=a%100
+    print(i)
+else:
+    print("The value shouuld be greater than 99")
