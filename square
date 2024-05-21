@@ -1,0 +1,7 @@
+num =int(input()) 
+sqrt_num = num**0.5  
+
+if sqrt_num**2==num:  
+    print("The number is a perfect square")  
+else:  
+    print("The number is not a perfect square")
