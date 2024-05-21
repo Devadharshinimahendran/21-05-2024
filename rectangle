@@ -1,0 +1,10 @@
+length1=int(input())
+length2=int(input())
+breadth1=int(input())
+breadth2=int(input())
+if(length1==length2 and breadth1==breadth2):
+    print("Yes\n")
+elif(length1==breadth1 and length2==breadth2):
+    print("Yes\n")
+else:
+    print("No")
