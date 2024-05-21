@@ -1,0 +1,19 @@
+u=int(input())
+if(u<=199):
+    t=u*1.20
+    print(t)
+elif(u>=200 and u<400):
+    t=u*1.50
+    print(t)
+elif(u>=400 and u<600):
+    t=u*1.80
+    print(t)
+else:
+    t=u*2.00
+    print(t)
+if(t>400):
+    t+=t*0.15
+    print(t)
+if(t<100):
+    t=100
+    print(t)
